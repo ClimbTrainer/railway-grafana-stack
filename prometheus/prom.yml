@@ -9,7 +9,7 @@ scrape_configs:
   - job_name: 'server_api'
     scheme: http
     static_configs:
-      - targets: ['trainer-server.up.railway.app']
+      - targets: ['trainer-server.railway.internal:8080']
   
   # - job_name: 'example_api'
   #   scheme: http
